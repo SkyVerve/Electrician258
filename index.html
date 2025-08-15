@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VoltTech Electricians - Home</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="index.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+    
+    body {
+      margin: 0;
+      background-color: #0d0c1d; /* Fallback for when CSS is loading */
+    }
+  </style>
+</head>
+<body>
+  <div id="page-container">
+    <div id="mouse-follower"></div>
+    <header class="header">
+      <a href="index.html" class="logo">Volt<span class="logo-accent">Tech</span></a>
+      <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+           <svg class="mobile-menu-icon" width="30" height="30" viewBox="0 0 100 80">
+              <rect class="line top" width="80" height="10" x="10" y="15" rx="5"></rect>
+              <rect class="line middle" width="80" height="10" x="10" y="35" rx="5"></rect>
+              <rect class="line bottom" width="80" height="10" x="10" y="55" rx="5"></rect>
+          </svg>
+      </button>
+      <nav>
+          <ul class="nav-links">
+              <li class="nav-link"><a href="index.html">Home</a></li>
+              <li class="nav-link dropdown">
+                   <button class="nav-link-button">Services</button>
+                   <div class="dropdown-menu-wrapper">
+                      <ul class="dropdown-menu">
+                          <li class="dropdown-item"><a href="service-electrical-panel-repair.html">Electrical Panel Repair</a></li>
+                          <li class="dropdown-item"><a href="service-smoke-detector-inspections.html">Smoke Detector Inspections</a></li>
+                          <li class="dropdown-item"><a href="service-car-charging-installs.html">Car Charging Installs</a></li>
+                          <li class="dropdown-item"><a href="service-ceiling-fans.html">Ceiling Fan Installation</a></li>
+                          <li class="dropdown-item"><a href="service-circuit-breaker-repair.html">Circuit Breaker Repair</a></li>
+                      </ul>
+                  </div>
+              </li>
+              <li class="nav-link"><a href="about.html">About Us</a></li>
+              <li class="nav-link"><a href="contact.html">Contact Us</a></li>
+          </ul>
+      </nav>
+    </header>
+    <main id="app-root" class="container">
+        <section class="hero">
+            <div class="hero-content">
+                <div class="scroll-animate">
+                    <h1>Modern Electrical Solutions For Your Home & Business</h1>
+                </div>
+                <div class="scroll-animate" style="transition-delay: 100ms;">
+                    <p class="hero-subheading">High-tech, reliable, and safe electrical services powered by expertise and innovation.</p>
+                </div>
+                <div class="scroll-animate" style="transition-delay: 200ms;">
+                    <a href="service-electrical-panel-repair.html" class="btn btn-gradient">Explore Services</a>
+                </div>
+            </div>
+            <div class="hero-vector-container">
+                <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <filter id="vector-glow" x="-50%" y="-50%" width="200%" height="200%">
+                            <feGaussianBlur stdDeviation="6" result="blur"/>
+                            <feMerge>
+                                <feMergeNode in="blur"/>
+                                <feMergeNode in="SourceGraphic"/>
+                            </feMerge>
+                        </filter>
+                        <linearGradient id="vector-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#00F2FF"/>
+                            <stop offset="100%" stop-color="#7F00FF"/>
+                        </linearGradient>
+                    </defs>
+                    
+                    <path class="vector-path-white" d="M250 120 L100 220 V 380 H 400 V 220 Z" stroke-width="3" fill="none" />
+                    <path class="vector-path-white" d="M90 225 L250 100 L 410 225" stroke-width="3" fill="none" />
+                    
+                    <g class="vector-pulse">
+                        <path d="M250 240 L230 280 H 270 L250 330" stroke="url(#vector-grad)" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#vector-glow)"/>
+                    </g>
+                    
+                    <g class="vector-circuit">
+                        <path d="M200 380 V 420 H 300 V 380" stroke-width="2" fill="none" />
+                        <path d="M250 300 Q 150 300 130 250" stroke-dasharray="4, 4" stroke-width="1.5" fill="none" />
+                        <path d="M250 300 Q 350 300 370 250" stroke-dasharray="4, 4" stroke-width="1.5" fill="none" />
+                        
+                        <g transform="translate(95, 220) scale(0.4)">
+                            <path class="vector-path-white" d="M49.68,36.56,43.2,33.12a13.3,13.3,0,0,0-1.2-14.88l4-5.28a2.08,2.08,0,0,0-2.88-3.36l-5.6,4.32a13.25,13.25,0,0,0-15.68-.8L18.48,8.8a2.08,2.08,0,0,0-3.36,2.88l3.36,6.24a13.3,13.3,0,0,0,.16,16.08l-5.76,3.68a2.08,2.08,0,0,0,2.08,4l6.56-2.56a13.25,13.25,0,0,0,14.24,4.32l2.72,6.56a2.08,2.08,0,0,0,4-2.08l-2.08-5.92a13.3,13.3,0,0,0,8.48-10.72L51,40A2.08,2.08,0,0,0,49.68,36.56ZM32.8,38a8,8,0,1,1,8-8A8,8,0,0,1,32.8,38Z" stroke-width="4"/>
+                        </g>
+            
+                        <g transform="translate(345, 215) scale(0.5)">
+                             <path class="vector-path-white" d="M38.54,23 h-7.08v-6h-9v6H15.46a2.49,2.49,0,0,0-2.5,2.5V36.27a2.5,2.5,0,0,0,2.5,2.5h23.08a2.5,2.5,0,0,0,2.5-2.5V25.5A2.49,2.49,0,0,0,38.54,23Z" stroke-width="3" />
+                        </g>
+                    </g>
+                </svg>
+            </div>
+        </section>
+        
+        <section>
+            <div class="scroll-animate">
+                <h2 class="section-title">Our Core Services</h2>
+            </div>
+            <div class="grid services-grid">
+                <a href="service-electrical-panel-repair.html" class="service-card-link scroll-animate" style="transition-delay: 100ms;"><div class="service-card"><div class="service-card-inner"><svg class="service-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="4" width="34" height="56" rx="4" stroke="currentColor" stroke-width="3"/><line x1="22" y1="14" x2="42" y2="14" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><line x1="22" y1="24" x2="32" y2="24" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><line x1="38" y1="22" x2="38" y2="26" stroke="currentColor" stroke-width="3" stroke-linecap="round" class="panel-switch-flicker"/><line x1="22" y1="34" x2="42" y2="34" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><line x1="22" y1="44" x2="42" y2="44" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><line x1="22" y1="54" x2="32" y2="54" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg><h3>Panel Repairs</h3><p>Safe and efficient electrical panel upgrades and repairs.</p></div></div></a>
+                <a href="service-smoke-detector-inspections.html" class="service-card-link scroll-animate" style="transition-delay: 200ms;"><div class="service-card"><div class="service-card-inner"><svg class="service-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M32 4L8 14V30.68C8 46.14 18.24 58.42 32 60C45.76 58.42 56 46.14 56 30.68V14L32 4Z" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path class="smoke-detector-center" d="M22 32L29 39L44 24" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg><h3>Safety Checks</h3><p>Comprehensive smoke detector and circuit inspections.</p></div></div></a>
+                <a href="service-car-charging-installs.html" class="service-card-link scroll-animate" style="transition-delay: 300ms;"><div class="service-card"><div class="service-card-inner"><svg class="service-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M40 20V11C40 9.34315 38.6569 8 37 8H21C19.3431 8 18 9.34315 18 11V53C18 54.6569 19.3431 56 21 56H37C38.6569 56 40 54.6569 40 53V38" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 26H18" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M26 26L32 32L26 38" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" class="ev-charge-arrow"/></svg><h3>EV Charging</h3><p>Professional installation of home car charging stations.</p></div></div></a>
+                <a href="service-ceiling-fans.html" class="service-card-link scroll-animate" style="transition-delay: 400ms;"><div class="service-card"><div class="service-card-inner"><svg class="service-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><g class="ceiling-fan-blades"><path d="M32 32.5 C 42 32.5 45 22 55 20" stroke="currentColor" stroke-width="3.5" fill="none" stroke-linecap="round"/><path d="M32 32.5 C 22 32.5 19 43 9 45" stroke="currentColor" stroke-width="3.5" fill="none" stroke-linecap="round"/><path d="M32 32.5 C 21 28.5 15 20 18 9" stroke="currentColor" stroke-width="3.5" fill="none" stroke-linecap="round"/><path d="M32 32.5 C 43 36.5 49 45 46 56" stroke="currentColor" stroke-width="3.5" fill="none" stroke-linecap="round"/></g><circle cx="32" cy="32.5" r="4" stroke="currentColor" stroke-width="3" fill="var(--background-color)"/></svg><h3>Ceiling Fans</h3><p>Stylish and efficient ceiling fan installations and repairs.</p></div></div></a>
+                <a href="service-circuit-breaker-repair.html" class="service-card-link scroll-animate" style="transition-delay: 500ms;"><div class="service-card"><div class="service-card-inner"><svg class="service-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="22" y="12" width="20" height="40" rx="3" stroke="currentColor" stroke-width="3"/><rect x="27" y="20" width="10" height="14" fill="currentColor" class="circuit-breaker-switch"/><line x1="32" y1="4" x2="32" y2="12" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><line x1="32" y1="52" x2="32" y2="60" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg><h3>Breaker Repairs</h3><p>Reliable circuit breaker repairs and replacements.</p></div></div></a>
+            </div>
+        </section>
+        
+        <section>
+            <div class="scroll-animate">
+                <h2 class="section-title">Why Choose Us?</h2>
+            </div>
+            <div class="stats-grid">
+                
+                    <div class="stat-counter" data-value="98" data-suffix="%">
+                        <div class="scroll-animate" style="transition-delay: 0ms;">
+                            <div class="stat-value">0%</div>
+                            <div class="stat-label">Customer Satisfaction</div>
+                        </div>
+                    </div>
+                
+                    <div class="stat-counter" data-value="99" data-suffix="%">
+                        <div class="scroll-animate" style="transition-delay: 100ms;">
+                            <div class="stat-value">0%</div>
+                            <div class="stat-label">On-Time Arrival</div>
+                        </div>
+                    </div>
+                
+                    <div class="stat-counter" data-value="100" data-suffix="%">
+                        <div class="scroll-animate" style="transition-delay: 200ms;">
+                            <div class="stat-value">0%</div>
+                            <div class="stat-label">Licensed & Insured</div>
+                        </div>
+                    </div>
+                
+                    <div class="stat-counter" data-value="5000" data-suffix="+">
+                        <div class="scroll-animate" style="transition-delay: 300ms;">
+                            <div class="stat-value">0+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                    </div>
+                
+            </div>
+        </section>
+
+        <section>
+            <div class="scroll-animate">
+                 <h2 class="section-title">What Our Clients Say</h2>
+            </div>
+            
+        <div class="testimonial-carousel-container">
+            <div class="testimonial-carousel">
+                <div class="carousel-inner">
+                    
+                        <div class="testimonial-card" style="z-index: 4;">
+                            <div class="testimonial-card-content">
+                                <div class="testimonial-text">
+                                    <p>"Excellent service! They handled a full electrical rewiring of our house, and we couldn’t be more satisfied with the results. The electricians were professional, on time, and incredibly helpful."</p>
+                                    <div class="testimonial-author">
+                                        <div>
+                                            <h3>Kelly W.</h3>
+                                            <p>Homeowner</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-visual">
+                                    <svg class="testimonial-vector-graphic" width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M100 0C155.228 0 200 44.7715 200 100C200 155.228 155.228 200 100 200C44.7715 200 0 155.228 0 100C0 44.7715 44.7715 0 100 0Z" fill="url(#paint0_linear_1_100)"/><path d="M100 20C144.183 20 180 55.8172 180 100C180 144.183 144.183 180 100 180C55.8172 180 20 144.183 20 100C20 55.8172 55.8172 20 100 20Z" stroke="url(#paint1_linear_1_100)" stroke-opacity="0.3" stroke-width="2"/><path d="M158 52L42 148" stroke="url(#paint2_linear_1_100)" stroke-opacity="0.1" stroke-width="1"/><path d="M178 80L22 176" stroke="url(#paint3_linear_1_100)" stroke-opacity="0.1" stroke-width="1"/><path d="M198 108L2 204" stroke="url(#paint4_linear_1_100)" stroke-opacity="0.1" stroke-width="1"/><defs><linearGradient id="paint0_linear_1_100" x1="100" y1="0" x2="100" y2="200" gradientUnits="userSpaceOnUse"><stop stop-color="#1E1C38"/><stop offset="1" stop-color="#121124"/></linearGradient><linearGradient id="paint1_linear_1_100" x1="100" y1="20" x2="100" y2="180" gradientUnits="userSpaceOnUse"><stop stop-color="#00F2FF"/><stop offset="1" stop-color="#7F00FF"/></linearGradient><linearGradient id="paint2_linear_1_100" x1="100" y1="100" x2="100" y2="100" gradientUnits="userSpaceOnUse"><stop stop-color="white"/></linearGradient><linearGradient id="paint3_linear_1_100" x1="100" y1="128" x2="100" y2="128" gradientUnits="userSpaceOnUse"><stop stop-color="white"/></linearGradient><linearGradient id="paint4_linear_1_100" x1="100" y1="156" x2="100" y2="156" gradientUnits="userSpaceOnUse"><stop stop-color="white"/></linearGradient></defs></svg>
+                                    <div class="author-avatar">
+                                        <div style="background-image: url(https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=600)"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="testimonial-card" style="z-index: 3;">
+                            <div class="testimonial-card-content">
+                                <div class="testimonial-text">
+                                    <p>"Quick, reliable, and highly skilled. We had an electrical emergency at 2 AM, and they arrived in less than an hour. Couldn’t recommend them enough."</p>
+                                    <div class="testimonial-author">
+                                        <div>
+                                            <h3>Adam L.</h3>
+                                            <p>Small Business Owner</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-visual">
+                                    <svg class="testimonial-vector-graphic" width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M100 0C155.228 0 200 44.7715 200 100C200 155.228 155.228 200 100 200C44.7715 200 0 155.228 0 100C0 44.7715 44.7715 0 100 0Z" fill="url(#paint0_linear_1_100)"/><path d="M100 20C144.183 20 180 55.8172 180 100C180 144.183 144.183 180 100 180C55.8172 180 20 144.183 20 100C20 55.8172 55.8172 20 100 20Z" stroke="url(#paint1_linear_1_100)" stroke-opacity="0.3" stroke-width="2"/><path d="M158 52L42 148" stroke="url(#paint2_linear_1_100)" stroke-opacity="0.1" stroke-width="1"/><path d="M178 80L22 176" stroke="url(#paint3_linear_1_100)" stroke-opacity="0.1" stroke-width="1"/><path d="M198 108L2 204" stroke="url(#paint4_linear_1_100)" stroke-opacity="0.1" stroke-width="1"/><defs><linearGradient id="paint0_linear_1_100" x1="100" y1="0" x2="100" y2="200" gradientUnits="userSpaceOnUse"><stop stop-color="#1E1C38"/><stop offset="1" stop-color="#121124"/></linearGradient><linearGradient id="paint1_linear_1_100" x1="100" y1="20" x2="100" y2="180" gradientUnits="userSpaceOnUse"><stop stop-color="#00F2FF"/><stop offset="1" stop-color="#7F00FF"/></linearGradient><linearGradient id="paint2_linear_1_100" x1="100" y1="100" x2="100" y2="100" gradientUnits="userSpaceOnUse"><stop stop-color="white"/></linearGradient><linearGradient id="paint3_linear_1_100" x1="100" y1="128" x2="100" y2="128" gradientUnits="userSpaceOnUse"><stop stop-color="white"/></linearGradient><linearGradient id="paint4_linear_1_100" x1="100" y1="156" x2="100" y2="156" gradientUnits="userSpaceOnUse"><stop stop-color="white"/></linearGradient></defs></svg>
+                                    <div class="author-avatar">
+                                        <div style="background-image: url(https://images.pexels.com/photos/837358/pexels-photo-837358.jpeg?auto=compress&cs=tinysrgb&w=600)"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="testimonial-card" style="z-index: 2;">
+                            <div class="testimonial-card-content">
+                                <div class="testimonial-text">
+                                    <p>"From start to finish, the team was exceptional. The pricing was fair, the work was done efficiently, and we felt completely comfortable with their service."</p>
+                                    <div class="testimonial-author">
+                                        <div>
+                                            <h3>Diane T.</h3>
+                                            <p>Property Manager</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-visual">
+                                    <svg class="testimonial-vector-graphic" width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M100 0C155.228 0 200 44.7715 200 100C200 155.228 155.228 200 100 200C44.7715 200 0 155.228 0 100C0 44.7715 44.7715 0 100 0Z" fill="url(#paint0_linear_1_100)"/><path d="M100 20C144.183 20 180 55.8172 180 100C180 144.183 144.183 180 100 180C55.8172 180 20 144.183 20 100C20 55.8172 55.8172 20 100 20Z" stroke="url(#paint1_linear_1_100)" stroke-opacity="0.3" stroke-width="2"/><path d="M158 52L42 148" stroke="url(#paint2_linear_1_100)" stroke-opacity="0.1" stroke-width="1"/><path d="M178 80L22 176" stroke="url(#paint3_linear_1_100)" stroke-opacity="0.1" stroke-width="1"/><path d="M198 108L2 204" stroke="url(#paint4_linear_1_100)" stroke-opacity="0.1" stroke-width="1"/><defs><linearGradient id="paint0_linear_1_100" x1="100" y1="0" x2="100" y2="200" gradientUnits="userSpaceOnUse"><stop stop-color="#1E1C38"/><stop offset="1" stop-color="#121124"/></linearGradient><linearGradient id="paint1_linear_1_100" x1="100" y1="20" x2="100" y2="180" gradientUnits="userSpaceOnUse"><stop stop-color="#00F2FF"/><stop offset="1" stop-color="#7F00FF"/></linearGradient><linearGradient id="paint2_linear_1_100" x1="100" y1="100" x2="100" y2="100" gradientUnits="userSpaceOnUse"><stop stop-color="white"/></linearGradient><linearGradient id="paint3_linear_1_100" x1="100" y1="128" x2="100" y2="128" gradientUnits="userSpaceOnUse"><stop stop-color="white"/></linearGradient><linearGradient id="paint4_linear_1_100" x1="100" y1="156" x2="100" y2="156" gradientUnits="userSpaceOnUse"><stop stop-color="white"/></linearGradient></defs></svg>
+                                    <div class="author-avatar">
+                                        <div style="background-image: url(https://images.pexels.com/photos/3763188/jpeg?auto=compress&cs=tinysrgb&w=600)"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="testimonial-card" style="z-index: 1;">
+                            <div class="testimonial-card-content">
+                                <div class="testimonial-text">
+                                    <p>"These guys are amazing! They installed our new ceiling fans and updated our fuse box with such precision. Highly recommend them for any electrical needs."</p>
+                                    <div class="testimonial-author">
+                                        <div>
+                                            <h3>George P.</h3>
+                                            <p>Homeowner</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-visual">
+                                    <svg class="testimonial-vector-graphic" width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M100 0C155.228 0 200 44.7715 200 100C200 155.228 155.228 200 100 200C44.7715 200 0 155.228 0 100C0 44.7715 44.7715 0 100 0Z" fill="url(#paint0_linear_1_100)"/><path d="M100 20C144.183 20 180 55.8172 180 100C180 144.183 144.183 180 100 180C55.8172 180 20 144.183 20 100C20 55.8172 55.8172 20 100 20Z" stroke="url(#paint1_linear_1_100)" stroke-opacity="0.3" stroke-width="2"/><path d="M158 52L42 148" stroke="url(#paint2_linear_1_100)" stroke-opacity="0.1" stroke-width="1"/><path d="M178 80L22 176" stroke="url(#paint3_linear_1_100)" stroke-opacity="0.1" stroke-width="1"/><path d="M198 108L2 204" stroke="url(#paint4_linear_1_100)" stroke-opacity="0.1" stroke-width="1"/><defs><linearGradient id="paint0_linear_1_100" x1="100" y1="0" x2="100" y2="200" gradientUnits="userSpaceOnUse"><stop stop-color="#1E1C38"/><stop offset="1" stop-color="#121124"/></linearGradient><linearGradient id="paint1_linear_1_100" x1="100" y1="20" x2="100" y2="180" gradientUnits="userSpaceOnUse"><stop stop-color="#00F2FF"/><stop offset="1" stop-color="#7F00FF"/></linearGradient><linearGradient id="paint2_linear_1_100" x1="100" y1="100" x2="100" y2="100" gradientUnits="userSpaceOnUse"><stop stop-color="white"/></linearGradient><linearGradient id="paint3_linear_1_100" x1="100" y1="128" x2="100" y2="128" gradientUnits="userSpaceOnUse"><stop stop-color="white"/></linearGradient><linearGradient id="paint4_linear_1_100" x1="100" y1="156" x2="100" y2="156" gradientUnits="userSpaceOnUse"><stop stop-color="white"/></linearGradient></defs></svg>
+                                    <div class="author-avatar">
+                                        <div style="background-image: url(https://images.pexels.com/photos/846741/jpeg?auto=compress&cs=tinysrgb&w=600)"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+            <div class="slideshow-controls">
+                <div class="slideshow-dots">
+                    <button class="dot" data-slide-index="0" aria-label="Go to slide 1"></button><button class="dot" data-slide-index="1" aria-label="Go to slide 2"></button><button class="dot" data-slide-index="2" aria-label="Go to slide 3"></button><button class="dot" data-slide-index="3" aria-label="Go to slide 4"></button>
+                </div>
+                <button class="btn btn-gradient testimonial-read-more">Read More</button>
+            </div>
+        </div>
+    
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="scroll-animate">
+            <div class="footer-content">
+                <a href="index.html" class="logo footer-logo-text">Volt<span class="logo-accent">Tech</span></a>
+                <ul class="footer-nav">
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+                <div class="footer-socials">
+                    <a href="#" aria-label="Instagram"><svg class="social-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8A3.6 3.6 0 0 0 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6A3.6 3.6 0 0 0 16.4 4H7.6zm9.65 1.5a1.25 1.25 0 1 1-2.5 0 1.25 1.25 0 0 1 2.5 0zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"></path></svg></a>
+                    <a href="#" aria-label="LinkedIn"><svg class="social-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14zm-11 4H5v10h3V7zm-1.5-2a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm11 12h-3v-4.32c0-1.1-.02-2.5-1.52-2.5c-1.53 0-1.77 1.19-1.77 2.42V19h-3V7h3v1.38h.04c.42-.8 1.45-1.64 3.01-1.64 3.22 0 3.82 2.12 3.82 4.88V19z"></path></svg></a>
+                    <a href="#" aria-label="YouTube"><svg class="social-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M21.58 7.19c-.23-.86-.9-1.52-1.76-1.75C18.25 5 12 5 12 5s-6.25 0-7.82.44c-.86.23-1.52.89-1.75 1.75C2 8.76 2 12 2 12s0 3.24.43 4.81c.23.86.9 1.52 1.75 1.75C5.75 19 12 19 12 19s6.25 0 7.82-.44c.86-.23 1.52-.89 1.76-1.75C22 15.24 22 12 22 12s0-3.24-.42-4.81zM9.75 15.5V8.5L15.75 12 9.75 15.5z"></path></svg></a>
+                    <a href="#" aria-label="Facebook"><svg class="social-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.04c-5.5 0-10 4.49-10 10.02 0 5 3.66 9.15 8.44 9.9v-7.02h-2.54v-2.89h2.54V9.84c0-2.51 1.49-3.9 3.8-3.9 1.09 0 2.23.19 2.23.19v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.45 2.89h-2.33v7.02c4.78-.75 8.44-4.9 8.44-9.9C22 6.53 17.5 2.04 12 2.04z"></path></svg></a>
+                </div>
+                <p class="copyright">&copy; 2024 VoltTech Electricians. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+  </div>
+  <script src="index.js"></script>
+  <elevenlabs-convai agent-id="agent_6501k2dzfx6wfcq8n2ss6vdd7rnx"></elevenlabs-convai>
+  <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
+</body>
+</html>
