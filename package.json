@@ -1,0 +1,14 @@
+{
+  "name": "volttech-website",
+  "version": "1.0.0",
+  "description": "A modern website for a local electrician service business.",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Build complete - static files ready'",
+    "start": "echo 'Starting development server' && python3 -m http.server 3000",
+    "dev": "python3 -m http.server 3000"
+  },
+  "keywords": ["electrician", "website", "volttech"],
+  "author": "",
+  "license": "ISC"
+}
